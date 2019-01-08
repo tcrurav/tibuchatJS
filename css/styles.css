@@ -1,0 +1,9 @@
+html, body {
+    height: 100%;
+}
+
+#all-messages {
+    background-color: lightgray;
+    border: 1px black solid;
+    height: 100%;
+}
