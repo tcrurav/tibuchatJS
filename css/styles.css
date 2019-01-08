@@ -7,3 +7,7 @@ html, body {
     border: 1px black solid;
     height: 100%;
 }
+
+.username {
+    font-weight: bold;
+}

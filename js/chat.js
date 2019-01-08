@@ -26,7 +26,7 @@ function showAllMessages(){
         let data = snap.val();
         let allMessages = "";
         for (var key in data){
-            allMessages += data[key].name + ": " + data[key].message + "</br>";
+            allMessages += "<span class=\"username\">" + data[key].name + " dice: </span>" + data[key].message + "</br>";
         }
         document.getElementById("all-messages").innerHTML = allMessages;
     });
